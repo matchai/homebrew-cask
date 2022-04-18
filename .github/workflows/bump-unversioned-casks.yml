@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Check if another run already exists
         id: skip
-        uses: fkirc/skip-duplicate-actions@ea548f2a2a08c55dcb111418ca62181f7887e297
+        uses: fkirc/skip-duplicate-actions@9d116fa7e55f295019cfab7e3ab72b478bcf7fdd
         with:
           cancel_others: false
           concurrent_skipping: always
